@@ -1,0 +1,46 @@
+/* Custom CSS to make cards smaller */
+.card {
+    width: 85%; /* Adjust width as needed */
+    margin: 10px auto; /* Centers the card with a smaller margin */
+    font-size: 0.9em; /* Adjust font size to scale with the card */
+}
+
+.card-body {
+    padding: 10px; /* Reduced padding inside the card */
+}
+
+.card-img-top {
+    height: 150px; /* Fixing image height can help in reducing card size */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+
+.navbar-brand img {
+    height: 30px; /* Resize the logo if necessary */
+}
+
+/* Custom CSS for book cards */
+.card.my-3 {
+    max-width: 250px; /* Adjust width of the card */
+    margin: 10px auto; /* Centralize the card with margin auto */
+}
+
+.card-img-top {
+    width: 100%; /* Make image take full width of the card */
+    height: 350px; /* Fix the height of the image */
+    object-fit: cover; /* Ensure the image covers the area well without distortion */
+}
+
+.card-body {
+    padding: 0.5rem; /* Reduce padding inside the card body */
+}
+
+.card-title {
+    font-size: 1rem; /* Reduce the font size for the title */
+    margin-bottom: 0.3rem; /* Reduce margin below the title */
+}
+
+.card-body h3 {
+    font-size: 1.2rem; /* Reduce the font size for the price */
+    font-weight: normal; /* Adjust weight if necessary */
+    color: #333; /* Make the price color less intense, optional */
+}
